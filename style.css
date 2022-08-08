@@ -1,0 +1,44 @@
+
+      .description {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .aboutme {
+        background-color: white;
+        color: rgb(19, 19, 253);
+        border-radius: 10px;
+        border-color: rgb(19, 19, 253);
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.1s;
+        vertical-align: top;
+        margin-top: 20px;
+        margin-right: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .aboutme:hover {
+        background-color: rgb(19, 19, 253);
+        color: white;
+        box-shadow: 5px 5px 10px rgba(19, 19, 253, 0.3);
+      }
+      .aboutme:active {
+        margin-top: 25px;
+      }
+      img {
+        width: 100px;
+        border-radius: 10px;
+        float: left;
+        margin-right: 25px;
+      }
+
+      .username {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      em {
+        color: red;
+        font-style: normal;
+      }
+      .test {
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }

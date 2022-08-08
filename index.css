@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    padding-bottom: 600px;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(211, 210, 210);
+}
+.header-flex {
+ display: flex;
+ justify-content: space-between;
+}
+.flex-left {
+    background-color: red;
+    width: 300px;
+}
+.flex-middle {
+    background-color: green;
+    width: 500px;
+
+}
+.flex-right {
+    background-color: blue;
+    width: 300px;
+}
+.h1 {
+    padding-top: 70px;
+    
+}
+.links {
+    display: block;
+    line-height: 40px;
+}
+.bottom {
+    position: relative;
+    top: 400px;
+    left: 650px; 
+}

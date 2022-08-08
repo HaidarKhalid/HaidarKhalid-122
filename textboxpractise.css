@@ -1,0 +1,40 @@
+.tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    position: relative;
+    left: 500px;
+    top: 100px;
+  }
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .tweet-button:active {
+    background-color: rgb(106, 190, 243);
+  }
+  
+  .tweettext {
+    border: none;
+    position: absolute;
+    left: 350px;
+    top: 175px;
+    width: 160px;
+    
+  }
+  .profilepicture {
+    width: 80px;
+    position: relative;
+    top: 135px;
+    left: 166px;
+    border-radius: 10px;
+
+  }
